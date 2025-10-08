@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1756189033507",
+    "firstName": "harish",
+    "lastName": "appannagari",
+    "email": "harish@gmail.com",
+    "password": "$2b$10$5YYdxrNlsmul1IX3v6gMruDH4hs.1GUDt.xt0ile1wzY7xNVPormW",
+    "company": "",
+    "registeredAt": "2025-08-26T06:17:13.507Z"
+  },
+  {
+    "id": "1756190729318",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "email": "jane.smith@test.com",
+    "password": "$2b$10$xSaGk/sYh.tml0JeLjvP2ORLShKYzyMfHTLyPCm9HxJ7wW35ELJj2",
+    "company": "Test Corp",
+    "registeredAt": "2025-08-26T06:45:29.318Z"
+  },
+  {
+    "id": "1756191186601",
+    "firstName": "tanay",
+    "lastName": "Appannagari",
+    "email": "tanay@gmail.com",
+    "password": "$2b$10$i.feO5cZnLKoXvFer8txy.cRxnOqvmGEGQyli7ec4x3lrAvio3.eq",
+    "company": "",
+    "registeredAt": "2025-08-26T06:53:06.601Z"
+  }
+]

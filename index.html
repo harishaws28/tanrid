@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TanRid Technologies - Software Testing & IT Consulting</title>
+    <meta name="description" content="TanRid Technologies provides software testing, automation, and IT consulting services. Established in 2003, we deliver quality solutions for product development and testing.">
+    <meta name="keywords" content="software testing, automation testing, IT consulting, product development, quality assurance, test management">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Modern Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="nav-logo-link">
+                    <span class="logo-text">TanRid</span>
+                    <span class="logo-subtitle">Technologies</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tutorials.html" class="nav-link" id="tutorials-link">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#careers" class="nav-link">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="user-status" id="user-status">
+                <span class="user-welcome" id="user-welcome"></span>
+                <button class="logout-btn" id="logout-btn">Logout</button>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">Excellence in Software Testing</span>
+                    <span class="hero-title-sub">& IT Consulting</span>
+                </h1>
+                <p class="hero-description">
+                    We develop software applications and deliver comprehensive testing and test automation services to address end-to-end needs of software product development lifecycle.
+                </p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary">Our Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-cards">
+                    <div class="hero-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Development</h3>
+                    </div>
+                    <div class="hero-card">
+                        <i class="fas fa-bug"></i>
+                        <h3>Testing</h3>
+                    </div>
+                    <div class="hero-card">
+                        <i class="fas fa-rocket"></i>
+                        <h3>Automation</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About TanRid</h2>
+                <p class="section-subtitle">Established in 2003, delivering excellence for over two decades</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Who We Are</h3>
+                        <p>TanRid is a Software and Technology services company, working with high-tech companies to provide a wide array of practices customized for implementing IT solutions. We offer both onsite and in-house product development, testing and test automation solutions using the latest tools and practices.</p>
+                    </div>
+                    
+                    <div class="about-values">
+                        <div class="value-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Dedicated Team Model</h4>
+                                <p>Complete focus on quality with seamless integration into your application development process.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <div>
+                                <h4>Latest Technology Stack</h4>
+                                <p>We develop and test using the most current technology stack available in the market.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Specialized Testing</h4>
+                                <p>Customized solutions unique to your product with specialized testing approaches.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h4>Professional Practices</h4>
+                                <p>Ethical company with high standards of quality and on-time deliveries.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-skills">
+                    <h3>Our Expertise</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Project Management</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Product Development</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Business Analysis</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Data Analysis</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>IT Team Augmentation</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for your software development needs</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="product-dev">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Product Development</h3>
+                    <p>End-to-end software development using Java EE frameworks and modern technologies.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                
+                <div class="service-card" data-service="automation">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automation Testing</h3>
+                    <p>Comprehensive test automation services for better coverage and efficient execution.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                
+                <div class="service-card" data-service="performance">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Performance Testing</h3>
+                    <p>Specialized performance testing under various loads and stress environments.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                
+                <div class="service-card" data-service="manual">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-pointer"></i>
+                    </div>
+                    <h3>Manual Testing</h3>
+                    <p>Thorough functionality, boundary, error, usability, and regression testing.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                
+                <div class="service-card" data-service="management">
+                    <div class="service-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Test Management</h3>
+                    <p>Comprehensive test case management using both open source and licensed tools.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+                
+                <div class="service-card" data-service="mobile">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Testing</h3>
+                    <p>Specialized mobile application testing across different platforms and devices.</p>
+                    <button class="service-btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorials Preview Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premium Tutorials</h2>
+                <p class="section-subtitle">Exclusive learning materials for registered users</p>
+            </div>
+            
+            <div class="tutorials-preview">
+                <div class="preview-card">
+                    <div class="preview-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Exclusive Content</h3>
+                    <p>Access our comprehensive library of testing and automation tutorials, available exclusively to registered users.</p>
+                    <ul class="preview-features">
+                        <li><i class="fas fa-check"></i> REST API Testing</li>
+                        <li><i class="fas fa-check"></i> Automation Testing</li>
+                        <li><i class="fas fa-check"></i> Mobile Testing</li>
+                        <li><i class="fas fa-check"></i> CI/CD Implementation</li>
+                        <li><i class="fas fa-check"></i> Framework Selection</li>
+                        <li><i class="fas fa-check"></i> Cross Browser Testing</li>
+                    </ul>
+                    <div class="auth-options">
+                        <button class="btn btn-primary" id="show-tutorials-login">Sign In</button>
+                        <button class="btn btn-secondary" id="show-tutorials-register">Register Free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Careers</h2>
+                <p class="section-subtitle">Join our team of talented professionals</p>
+            </div>
+            
+            <div class="careers-content">
+                <div class="careers-intro">
+                    <p>At TanRid, we recognize that hiring the best and brightest talent is a big part of what makes us a successful company. We understand that our greatest asset is our employees.</p>
+                    
+                    <div class="careers-values">
+                        <div class="career-value">
+                            <h3>Culture</h3>
+                            <p>We believe in a workplace that maximizes everyone's potential through teamwork, learning and communication.</p>
+                        </div>
+                        <div class="career-value">
+                            <h3>Opportunities</h3>
+                            <p>We offer talented people the opportunity to excel in an exciting high-tech industry.</p>
+                        </div>
+                        <div class="career-value">
+                            <h3>Ethics</h3>
+                            <p>We conduct our business ethically and in conformance with laws and regulations.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="job-openings">
+                    <h3>Current Openings</h3>
+                    <p>Send your resume to <a href="mailto:jobs@tanrid.com">jobs@tanrid.com</a> with the job title as subject.</p>
+                    
+                    <div class="jobs-grid">
+                        <div class="job-card">
+                            <h4>Business Analyst</h4>
+                            <p>Quantitative background with experience in data-driven decision making and analytics.</p>
+                            <ul>
+                                <li>Advanced analytical skills</li>
+                                <li>Excel/Pivot tables to Big Data analysis</li>
+                                <li>Executive level presentation skills</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="job-card">
+                            <h4>QA Engineer</h4>
+                            <p>3+ years of software QA experience with automation testing capabilities.</p>
+                            <ul>
+                                <li>Unix/Linux and Windows environments</li>
+                                <li>Java test automation (Selenium WebDriver)</li>
+                                <li>RESTful web services testing</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="job-card">
+                            <h4>Test Automation Engineer</h4>
+                            <p>Work with cross-functional teams in test automation activities across the organization.</p>
+                            <ul>
+                                <li>Object oriented programming (Java, Python)</li>
+                                <li>Version control software (git, svn)</li>
+                                <li>5+ years relevant experience</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="job-card">
+                            <h4>UI Developer</h4>
+                            <p>Enhance and maintain UI using modern JavaScript frameworks and technologies.</p>
+                            <ul>
+                                <li>JavaScript, HTML5, CSS, jQuery</li>
+                                <li>AngularJS, Bootstrap</li>
+                                <li>6+ years development experience</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="job-card">
+                            <h4>Java Developer</h4>
+                            <p>Design, develop, debug, test and deploy applications using ODM components and Java.</p>
+                            <ul>
+                                <li>Business Object Model (BOM) setup</li>
+                                <li>Rule Business Object Model (RBO/XOM)</li>
+                                <li>Decision Center management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Ready to start your project? Let's discuss your needs</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>2086 Walsh Ave. # C1<br>Santa Clara, CA 95050</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p><a href="tel:+14083066738">(408) 306-6738</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@tanrid.com">info@tanrid.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">TanRid</span>
+                    <span class="logo-subtitle">Technologies</span>
+                </div>
+                <p>&copy; 2024 TanRid Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Modals -->
+    <div id="service-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div id="portfolio-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="portfolio-modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Registration Modal -->
+    <div id="registration-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2>Create Account</h2>
+                <p>Register to access our exclusive tutorials</p>
+            </div>
+            <form id="registration-form" class="auth-form">
+                <div class="form-group">
+                    <input type="text" id="reg-firstname" name="firstname" placeholder="First Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="reg-lastname" name="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="reg-email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="reg-password" name="password" placeholder="Password" required minlength="6">
+                </div>
+                <div class="form-group">
+                    <input type="password" id="reg-confirm-password" name="confirmPassword" placeholder="Confirm Password" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="reg-company" name="company" placeholder="Company (Optional)">
+                </div>
+                <button type="submit" class="btn btn-primary auth-btn">Create Account</button>
+                <p class="auth-switch">Already have an account? <a href="#" id="show-login">Sign in here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2>Sign In</h2>
+                <p>Access your tutorials and learning materials</p>
+            </div>
+            <form id="login-form" class="auth-form">
+                <div class="form-group">
+                    <input type="email" id="login-email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="login-password" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary auth-btn">Sign In</button>
+                <p class="auth-switch">Don't have an account? <a href="#" id="show-register">Register here</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Tutorials Access Modal -->
+    <div id="tutorials-access-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div class="modal-header">
+                <h2>Access Tutorials</h2>
+                <p>Please sign in or create an account to access our exclusive tutorials</p>
+            </div>
+            <div class="auth-options">
+                <button class="btn btn-primary" id="access-login">Sign In</button>
+                <button class="btn btn-secondary" id="access-register">Create Account</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

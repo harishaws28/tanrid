@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials - TanRid Technologies</title>
+    <meta name="description" content="Exclusive tutorials for registered users - Software testing, automation, and IT consulting guides.">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Modern Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html" class="nav-logo-link">
+                    <span class="logo-text">TanRid</span>
+                    <span class="logo-subtitle">Technologies</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tutorials.html" class="nav-link active">Tutorials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#careers" class="nav-link">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="user-status logged-in" id="user-status">
+                <span class="user-welcome" id="user-welcome"></span>
+                <button class="logout-btn" id="logout-btn">Logout</button>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tutorials Section -->
+    <section class="tutorials-page">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">Premium Tutorials</h1>
+                <p class="section-subtitle">Exclusive learning materials for our registered users</p>
+            </div>
+            
+            <div class="tutorials-grid">
+                <div class="tutorial-card" data-tutorial="api">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>REST API Testing</h3>
+                    <p>Comprehensive API testing framework and methodology</p>
+                    <div class="tutorial-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 45 min</span>
+                        <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <button class="tutorial-btn">View Tutorial</button>
+                </div>
+                
+                <div class="tutorial-card" data-tutorial="automation">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automation Testing</h3>
+                    <p>Introduction to automated testing frameworks and tools</p>
+                    <div class="tutorial-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 60 min</span>
+                        <span class="level"><i class="fas fa-signal"></i> Beginner</span>
+                    </div>
+                    <button class="tutorial-btn">View Tutorial</button>
+                </div>
+                
+                <div class="tutorial-card" data-tutorial="ci">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Continuous Integration</h3>
+                    <p>CI/CD workflow implementation and best practices</p>
+                    <div class="tutorial-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 50 min</span>
+                        <span class="level"><i class="fas fa-signal"></i> Advanced</span>
+                    </div>
+                    <button class="tutorial-btn">View Tutorial</button>
+                </div>
+                
+                <div class="tutorial-card" data-tutorial="mobile">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                    <h3>Mobile Automation</h3>
+                    <p>Mobile testing using Appium and modern frameworks</p>
+                    <div class="tutorial-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 75 min</span>
+                        <span class="level"><i class="fas fa-signal"></i> Advanced</span>
+                    </div>
+                    <button class="tutorial-btn">View Tutorial</button>
+                </div>
+                
+                <div class="tutorial-card" data-tutorial="framework">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-sitemap"></i>
+                    </div>
+                    <h3>Test Automation Framework</h3>
+                    <p>Choosing the right automation framework for your needs</p>
+                    <div class="tutorial-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 40 min</span>
+                        <span class="level"><i class="fas fa-signal"></i> Intermediate</span>
+                    </div>
+                    <button class="tutorial-btn">View Tutorial</button>
+                </div>
+                
+                <div class="tutorial-card" data-tutorial="browser">
+                    <div class="tutorial-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Cross Browser Testing</h3>
+                    <p>Ensuring compatibility across different browsers and platforms</p>
+                    <div class="tutorial-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 35 min</span>
+                        <span class="level"><i class="fas fa-signal"></i> Beginner</span>
+                    </div>
+                    <button class="tutorial-btn">View Tutorial</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">TanRid</span>
+                    <span class="logo-subtitle">Technologies</span>
+                </div>
+                <p>&copy; 2024 TanRid Technologies. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tutorial Modal -->
+    <div id="tutorial-modal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="tutorial-modal-body"></div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="assets/js/tutorials.js"></script>
+</body>
+</html>
